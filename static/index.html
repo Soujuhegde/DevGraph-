@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GraphRAG Copilot</title>
+    <!-- Modern Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@500;700&display=swap" rel="stylesheet">
+    <!-- Feather Icons for sleek vector UI icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+    <link rel="stylesheet" href="/static/styles.css">
+    <!-- Marked.js for markdown rendering -->
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+<body>
+    <!-- Abstract Background -->
+    <div class="bg-shape shape-1"></div>
+    <div class="bg-shape shape-2"></div>
+    <div class="bg-shape shape-3"></div>
+
+    <div class="app-container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="brand">
+                <div class="logo-icon"><i data-feather="hexagon"></i></div>
+                <h2>GraphRAG</h2>
+            </div>
+            
+            <div class="sidebar-section">
+                <h3>Architecture</h3>
+                <ul class="tech-stack">
+                    <li><i data-feather="database"></i> Neo4j Graph DB</li>
+                    <li><i data-feather="layers"></i> Chroma Vector Store</li>
+                    <li><i data-feather="cpu"></i> Groq Llama 3.3</li>
+                    <li><i data-feather="git-merge"></i> LangGraph Agent</li>
+                    <li><i data-feather="server"></i> FastAPI</li>
+                </ul>
+            </div>
+            
+            <div class="sidebar-section mt-auto">
+                <div class="status-indicator">
+                    <span class="dot pulse"></span>
+                    <span>System Online</span>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Main Chat Area -->
+        <main class="chat-container">
+            <header class="chat-header">
+                <div>
+                    <h1>AI Architecture Assistant</h1>
+                    <p>Ask questions about your projects, stacks, and semantic similarities.</p>
+                </div>
+            </header>
+
+            <div class="chat-history" id="chatHistory">
+                <!-- Welcome Message -->
+                <div class="message ai-message">
+                    <div class="avatar"><i data-feather="cpu"></i></div>
+                    <div class="message-content">
+                        Hello! I am your GraphRAG copilot. I have analyzed all 7 of your projects using a hybrid graph-semantic approach. Ask me anything!
+                    </div>
+                </div>
+            </div>
+
+            <!-- Input Area -->
+            <div class="input-area-container">
+                <form id="chatForm" class="input-form">
+                    <input type="text" id="userInput" placeholder="Ask about the AI News Automation Agent..." autocomplete="off" required>
+                    <button type="submit" id="sendBtn">
+                        <i data-feather="send"></i>
+                    </button>
+                </form>
+            </div>
+        </main>
+    </div>
+
+    <script src="/static/app.js"></script>
+    <script>
+        // Initialize feather icons
+        feather.replace();
+    </script>
+</body>
+</html>
