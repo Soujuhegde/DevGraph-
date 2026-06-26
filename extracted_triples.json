@@ -1,0 +1,310 @@
+[
+  {
+    "source": "Agentic Langgraph",
+    "source_type": "Project",
+    "relationship": "USES",
+    "target": "LangGraph",
+    "target_type": "Technology"
+  },
+  {
+    "source": "Agentic Langgraph",
+    "source_type": "Project",
+    "relationship": "USES",
+    "target": "LangChain",
+    "target_type": "Technology"
+  },
+  {
+    "source": "Agentic Langgraph",
+    "source_type": "Project",
+    "relationship": "USES",
+    "target": "Groq",
+    "target_type": "Technology"
+  },
+  {
+    "source": "Agentic Langgraph",
+    "source_type": "Project",
+    "relationship": "USES",
+    "target": "Tavily",
+    "target_type": "Technology"
+  },
+  {
+    "source": "Agentic Langgraph",
+    "source_type": "Project",
+    "relationship": "USES",
+    "target": "FastAPI",
+    "target_type": "Technology"
+  },
+  {
+    "source": "Agentic Langgraph",
+    "source_type": "Project",
+    "relationship": "SOLVES",
+    "target": "manual conversation management",
+    "target_type": "Problem"
+  },
+  {
+    "source": "Agentic Langgraph",
+    "source_type": "Project",
+    "relationship": "DEPENDS_ON",
+    "target": "uv",
+    "target_type": "Technology"
+  },
+  {
+    "source": "Agentic Langgraph",
+    "source_type": "Project",
+    "relationship": "BUILT_BY",
+    "target": "Soujuhegde",
+    "target_type": "Person"
+  },
+  {
+    "source": "Business Intelligence",
+    "source_type": "Project",
+    "relationship": "USES",
+    "target": "FastAPI",
+    "target_type": "Technology"
+  },
+  {
+    "source": "Business Intelligence",
+    "source_type": "Project",
+    "relationship": "USES",
+    "target": "Streamlit",
+    "target_type": "Technology"
+  },
+  {
+    "source": "Business Intelligence",
+    "source_type": "Project",
+    "relationship": "USES",
+    "target": "Groq",
+    "target_type": "Technology"
+  },
+  {
+    "source": "Business Intelligence",
+    "source_type": "Project",
+    "relationship": "USES",
+    "target": "LangChain",
+    "target_type": "Technology"
+  },
+  {
+    "source": "Business Intelligence",
+    "source_type": "Project",
+    "relationship": "USES",
+    "target": "Scikit-Learn",
+    "target_type": "Technology"
+  },
+  {
+    "source": "Business Intelligence",
+    "source_type": "Project",
+    "relationship": "SOLVES",
+    "target": "manual business data analysis",
+    "target_type": "Problem"
+  },
+  {
+    "source": "Financial Chatbot",
+    "source_type": "Project",
+    "relationship": "USES",
+    "target": "Streamlit",
+    "target_type": "Technology"
+  },
+  {
+    "source": "Financial Chatbot",
+    "source_type": "Project",
+    "relationship": "USES",
+    "target": "Sarvam AI",
+    "target_type": "Technology"
+  },
+  {
+    "source": "Financial Chatbot",
+    "source_type": "Project",
+    "relationship": "SOLVES",
+    "target": "manual financial data analysis",
+    "target_type": "Problem"
+  },
+  {
+    "source": "Multi Agent E-Commerce",
+    "source_type": "Project",
+    "relationship": "USES",
+    "target": "FastAPI",
+    "target_type": "Technology"
+  },
+  {
+    "source": "Multi Agent E-Commerce",
+    "source_type": "Project",
+    "relationship": "USES",
+    "target": "Streamlit",
+    "target_type": "Technology"
+  },
+  {
+    "source": "Multi Agent E-Commerce",
+    "source_type": "Project",
+    "relationship": "USES",
+    "target": "LangChain",
+    "target_type": "Technology"
+  },
+  {
+    "source": "Multi Agent E-Commerce",
+    "source_type": "Project",
+    "relationship": "USES",
+    "target": "LangGraph",
+    "target_type": "Technology"
+  },
+  {
+    "source": "Multi Agent E-Commerce",
+    "source_type": "Project",
+    "relationship": "USES",
+    "target": "SarvamAI",
+    "target_type": "Technology"
+  },
+  {
+    "source": "Multi Agent E-Commerce",
+    "source_type": "Project",
+    "relationship": "BUILT_BY",
+    "target": "Soujanya S P",
+    "target_type": "Person"
+  },
+  {
+    "source": "Real Estate",
+    "source_type": "Project",
+    "relationship": "USES",
+    "target": "LangGraph",
+    "target_type": "Technology"
+  },
+  {
+    "source": "Real Estate",
+    "source_type": "Project",
+    "relationship": "USES",
+    "target": "Sarvam AI",
+    "target_type": "Technology"
+  },
+  {
+    "source": "Real Estate",
+    "source_type": "Project",
+    "relationship": "USES",
+    "target": "Pinecone",
+    "target_type": "Technology"
+  },
+  {
+    "source": "Real Estate",
+    "source_type": "Project",
+    "relationship": "USES",
+    "target": "FastAPI",
+    "target_type": "Technology"
+  },
+  {
+    "source": "Real Estate",
+    "source_type": "Project",
+    "relationship": "USES",
+    "target": "Streamlit",
+    "target_type": "Technology"
+  },
+  {
+    "source": "Real Estate",
+    "source_type": "Project",
+    "relationship": "SOLVES",
+    "target": "manual property data entry",
+    "target_type": "Problem"
+  },
+  {
+    "source": "Real Estate",
+    "source_type": "Project",
+    "relationship": "SOLVES",
+    "target": "inaccurate property information",
+    "target_type": "Problem"
+  },
+  {
+    "source": "Research And Report",
+    "source_type": "Project",
+    "relationship": "USES",
+    "target": "LangGraph",
+    "target_type": "Technology"
+  },
+  {
+    "source": "Research And Report",
+    "source_type": "Project",
+    "relationship": "USES",
+    "target": "FastAPI",
+    "target_type": "Technology"
+  },
+  {
+    "source": "Research And Report",
+    "source_type": "Project",
+    "relationship": "USES",
+    "target": "Streamlit",
+    "target_type": "Technology"
+  },
+  {
+    "source": "Research And Report",
+    "source_type": "Project",
+    "relationship": "USES",
+    "target": "Sarvam AI",
+    "target_type": "Technology"
+  },
+  {
+    "source": "Research And Report",
+    "source_type": "Project",
+    "relationship": "USES",
+    "target": "Tavily",
+    "target_type": "Technology"
+  },
+  {
+    "source": "Research And Report",
+    "source_type": "Project",
+    "relationship": "SOLVES",
+    "target": "manual research and report writing",
+    "target_type": "Problem"
+  },
+  {
+    "source": "Research And Report",
+    "source_type": "Project",
+    "relationship": "BUILT_BY",
+    "target": "Soujanya S P",
+    "target_type": "Person"
+  },
+  {
+    "source": "Tech Taco",
+    "source_type": "Project",
+    "relationship": "USES",
+    "target": "Sarvam AI",
+    "target_type": "Technology"
+  },
+  {
+    "source": "Tech Taco",
+    "source_type": "Project",
+    "relationship": "USES",
+    "target": "FastAPI",
+    "target_type": "Technology"
+  },
+  {
+    "source": "Tech Taco",
+    "source_type": "Project",
+    "relationship": "USES",
+    "target": "React",
+    "target_type": "Technology"
+  },
+  {
+    "source": "Tech Taco",
+    "source_type": "Project",
+    "relationship": "USES",
+    "target": "LangGraph",
+    "target_type": "Technology"
+  },
+  {
+    "source": "Tech Taco",
+    "source_type": "Project",
+    "relationship": "USES",
+    "target": "ChromaDB",
+    "target_type": "Technology"
+  },
+  {
+    "source": "Tech Taco",
+    "source_type": "Project",
+    "relationship": "SOLVES",
+    "target": "manual news curation",
+    "target_type": "Problem"
+  },
+  {
+    "source": "Tech Taco",
+    "source_type": "Project",
+    "relationship": "BUILT_BY",
+    "target": "Soujanya S P",
+    "target_type": "Person"
+  }
+]
